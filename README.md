@@ -46,6 +46,13 @@ Another simple idea is to listen to music using a microphone and to propose a se
 
 ### Try it out for yourself
 
+You don't want to end up in [Python dependency hell](https://xkcd.com/1987/) now do you? Play it safe and set up a virtual environment like so:
+```bash
+python3 -m venv venv-deej-ai
+source venv-deej-ai/bin/activate
+python -m pip install -U pip
+```
+
 Once you have installed the required python packages with
 
 ```bash
